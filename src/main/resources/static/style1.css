@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top, #bottom, #left, #right {
+    background: #009fe1;
+    position: fixed;
+}
+.title{
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+.card{
+    margin-left: 570px;
+    margin-right: 570px;
+    margin-top: 300px;
+    text-align: center;
+    color: black;
+    background-color: orange;
+    font-size: larger;
+
+}
+
+#left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+}
+#left { left: 0; }
+
+#right { right: 0; }
+
+#top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+}
+#top { top: 0; }
+
+#bottom { bottom: 0; }
+
+nav{
+    color: #009fe1
+}
+
+#hover-image {
+    background-image: url(https://res.cloudinary.com/di5v2kyqq/image/upload/v1581697675/linkedin-Headline-examples_b1ycez.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Tableofcontents {
+    text-decoration: underline;
+    color: black;
+
+}
+#howTo {
+    color: blue;
+}
+
+#directions {
+    text-align: left;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: grey;
+    width: 100%;
+    margin: 3% 15% 3% 8%;
+    border-left: 30%;
+    border-right: 0;
+    padding: 1%;
+}
+
+.ricepudding > h3 {
+    color: orange;
+}
+
+.ricepudding ul {
+    width: 15em;
+    padding: 10px 30px 10px 25px;
+}
+
+.bananabread h3 {
+    color: #CC9900;
+}
+
+.bananabread ul {
+    border-style: ridge;
+    width: 15em;
+    padding: 10px 30px 10px 25px;
+}
+
+.fruitsalad h3 {
+    color: #CC9900;
+}
+.fruitsalad ul {
+    border-style: ridge;
+    padding: 10px 30px 10px 25px;
+}
+
